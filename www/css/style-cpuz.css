@@ -18,8 +18,46 @@ body {
     font-size: 1.6rem;
     color: var(--primary-text);
     background: var(--primary-background);
+    padding: 3px;
+    margin: 3px
 }
-
+#fieldset{
+    position:center;
+   border-collapse: collapse;
+}
 body > header {
     margin-bottom: 2rem;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+th{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    border: 1px solid var(--primary-background);
+    padding:5px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid currentColor;
+    border-collapse: collapse;
+    padding:3rem;
+}
+tr td {
+    background-color:var(--secondary-background);
+}
+
+tr:nth-child(even) td {
+    background-color:var(--primary-background);
+}
+tr:hover td{
+    background-color: var(--hover-color);
+    }
+
